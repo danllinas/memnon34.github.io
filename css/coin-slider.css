@@ -1,0 +1,66 @@
+#coin-slider{
+	overflow:hidden;
+	background:url(../images/loader.html) 50% 50% no-repeat;
+	width:1020px;
+	height:430px;
+	margin:0 auto;
+}
+	#add-page #coin-slider, #add-page .coin-slider {width:940px !important;}
+.coin-slider{
+	position:relative;
+	margin:20px auto 2px auto;
+	width:1020px;
+	height:430px;
+}
+.coin-slider a{text-decoration:none;outline:none;border:none}
+.cs-buttons{
+	font-size:0px;
+	position:absolute;
+	line-height:0;
+	bottom:19px;
+	right:40px;
+}
+.cs-buttons a{
+	margin-left:10px;
+	height:11px;
+	width:11px;
+	background: url(../images/pagination-tail.html);
+	display:inline-block;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.cs-buttons a:hover,.cs-buttons a.cs-active{background:#fff;}
+.cs-prev,.cs-next{background:#262626;color:#fff;padding:0px 10px}
+.cs-prev:hover,.cs-next:hover{background:#fff;color:#262626}
+
+.cs-title {
+	background:url(../images/banner-bg.html) no-repeat 0 0;
+	display:block;
+	width:1020px;
+	overflow:hidden;
+	padding:0 0 0 305px;
+	position:absolute;
+	left:-1030px;
+	bottom:39px !important;
+}
+	.cs-title strong {
+		display:block;
+		font-size:52px;
+		line-height:60px;
+		color:#f1dd00;
+		font-weight:normal;
+	}
+	.cs-title b {
+		display:block;
+		float:left;
+		font-size:25px;
+		line-height:31px;
+		color:#f1dd00;
+		font-weight:normal;
+		text-transform:uppercase;
+		padding:0 17px 8px 10px;
+		color:#fff;
+		margin:-7px	0 0 0;
+		background:url(../images/banner-marker.html) no-repeat right 14px;
+	}

@@ -1,0 +1,267 @@
+input[type="text"],input[type=password],textarea{font-family:Arial, Helvetica, sans-serif;font-size:12px;vertical-align:middle;font-weight:normal;margin:0;border:none;outline:none;}
+/*404 Search-form & Under Construction*/
+#page-404 #search {
+	position:relative;
+	width:270px;
+	height:85px;
+}
+#page-404 #search input {
+	margin:0 4px 0 0;
+	display:block;
+	float:left;
+	outline:none;
+	font-size:12px;
+	width:180px;
+	outline:none;
+	vertical-align:middle;
+	border:1px solid #e1e1e1 !important;
+	background:#fff;
+	padding:6px 5px 7px 5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#page-404 #search a {
+	float:left;
+	display:block;
+	margin:1px 0 0 0;
+}
+#newsletter-form input {
+	margin:0 10px 0 0;
+	display: inline-block;
+	outline:none;
+	font-size:12px;
+	width:200px;
+	outline:none;
+	vertical-align:middle;
+	border:1px solid #e1e1e1 !important;
+	background:#fff;
+	padding:6px 10px 7px 10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+/* Contact form */
+#contact-form {
+	display:block; 
+	height:312px;
+	position:relative;
+	padding:3px 0 0 0;
+}
+#contact-form fieldset {overflow:hidden;}
+#contact-form label {
+	display:block; 
+	height:46px;
+	position:relative;
+	overflow:hidden;
+}
+	#contact-form label.message {
+		height:auto;
+		position:relative;
+	}
+#contact-form span {
+	display:none;
+	color:#f00;
+	margin:0 0 0 5px;
+	font-size:11px;
+	line-height:14px;
+}
+#contact-form label span.errors {
+	display:block;
+	margin:0;
+	position:absolute;
+	right:0;
+	top:0;
+	width:130px;
+}
+	#contact-form label.message span.errors {
+		display:block;
+		position:relative;
+		overflow:hidden;
+		clear:both;
+		width:auto;
+	}
+#contact-form input {
+	width:339px; 
+	font-size:12px;
+	padding:12px 14px 9px 14px; 
+	background:#fff;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif;
+	border:none;
+	display:block;
+	color:#7d7d7d;
+	margin:0;
+	box-shadow:none !important;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	float:left;
+}
+#contact-form textarea {
+	height:123px;
+	width:465px;
+	font-size:12px;
+	padding:12px 14px 9px 14px; 
+	background:#fff;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif;
+	border:none;
+	display:block;
+	color:#7d7d7d;
+	margin:0;
+	overflow:auto;
+	resize:none;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	float:left;
+}
+#contact-form .btns {
+	padding:0;
+	overflow:hidden;
+	position:absolute;
+	bottom:0;
+	right:20px;
+	height:auto;
+	width:auto;
+}
+	#contact-form .btns a {
+		cursor:pointer;
+		float:right;
+		font-size:17px;
+		line-height:20px;
+		color:#fef200;
+		text-decoration:none;
+		margin:0 0 0 23px;
+	}
+		#contact-form .btns a:hover {color:#fff;}
+.success {
+	display:none;
+	font-size:13px;
+	line-height:18px;
+	color:#fff;
+	padding:0;
+	top:0;
+	right:0;
+	position:absolute;
+	word-spacing:-1px;
+	width:125px;
+}
+	.success strong {color:#fff; display:block; padding:5px 0 0 0;}	
+
+#select-vehicle-form label {
+	display:block;
+	height:27px;
+}
+#select-vehicle-form span {
+	display:block;
+	float:left;
+	width:133px;
+	font-size:17px;
+	line-height:21px;
+	color:#fef200;
+	padding:2px 0 0 2px;
+}
+	#select-vehicle-form .buttons {padding:22px 0 0 20px;}
+/* ------------- * Selects * ------------- */
+.jqTransformSelectWrapper {
+	width:133px !important;
+	position:relative;
+	height: 22px;
+	background:#616161;
+	float:left;
+	z-index:20;
+	border:1px solid #616161;
+}
+.jqTransformSelectWrapper div span {
+	font-size: 12px;
+	float: none;
+	position: absolute;
+	white-space: nowrap;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 0 0 5px;
+	overflow: hidden;
+	cursor:pointer;
+}
+.jqTransformSelectWrapper  a.jqTransformSelectOpen {
+	display: block;
+	position: absolute;
+	right: 0px;
+	width: 23px;
+	height: 22px;
+	background: url(../images/form-select-button.html) no-repeat 0 0;
+}
+	.jqTransformSelectWrapper  a.jqTransformSelectOpen:hover {background: url(../images/form-select-button.html) no-repeat 0 -22px !important;}
+.jqTransformSelectWrapper ul {
+	position: absolute;
+	top: 23px;
+	left: -1px;
+	list-style: none;
+	background-color: #666;
+	border:1px solid #666;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	overflow: auto;
+	z-index:100;
+	width:133px !important;
+}
+.jqTransformSelectWrapper ul a {
+	display: block;
+	padding: 0 3px 0 10px;
+	text-decoration: none;
+	color:#fff;
+	background-color: #666;
+	font-size: 12px;
+	line-height:18px;
+	height:18px;
+}
+.jqTransformSelectWrapper ul a.selected {background: #777;color: #fff;}
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {background:#777;color: #fff;}
+/* ------------- * Inputs * ------------- */
+.jqTransformInputWrapper {
+	background: #616161;
+	height: 22px;
+	padding: 0px;
+	float:left;
+	width:133px !important;
+	border:1px solid #616161; 
+}
+.jqTransformInputInner {padding: 0px;margin: 0px;}
+.jqTransformInputInner div {
+	height: 22px;
+	margin:0;
+	overflow:hidden;
+}
+.jqTransformInputInner div input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align: middle;
+	color:#fff;	
+	border: none;
+	padding: 4px 5px 3px 5px;
+	margin: 0px;
+	background:transparent;
+	float:left;
+	outline:none;
+	width:144px !important;
+}
+.jqTransformSafari .jqTransformInputInner div {
+	position: relative;
+	overflow: hidden;
+	margin:0;
+}
+.jqTransformSafari .jqTransformInputInner div input {
+	position: absolute;
+	top: -10px;
+	left: -2px;
+	height: 42px; 
+	padding-left: 4px;
+}
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display: none;}

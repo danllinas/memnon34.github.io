@@ -1,0 +1,63 @@
+
+.sf-menu{
+	font-size:0;
+	line-height:0;
+	height:46px;
+	padding:0;
+	margin:0;
+}
+.sf-menu ul{
+	position:absolute;
+	top:-999em;
+	width:226px;
+	left:0;
+	display:none;
+	margin:0;
+}
+.sf-menu > li{
+	float:left;
+	position:relative;
+	padding-right:0px;
+}
+.sf-menu > li.last{padding-right:0px;}
+.sf-menu > li > a {
+	text-decoration:none;
+	display:block;
+	font-size:18px;
+	line-height:22px;
+	color:#fff;
+	font-weight:bold;
+	position:relative;
+	letter-spacing:-1px;
+}
+
+/*
+	.sf-menu > li:hover > a, .sf-menu > li.sfHover > a, .sf-menu > li.current > a {color:#fff404}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul{top:46px; left:1px;z-index:99;}
+.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul{top:-999em}
+.sf-menu li.current,.sf-menu li:hover,.sf-menu li.sfHover{
+	text-decoration:none;
+}
+.sf-menu li li a{
+	display:block;
+	font-size:12px;
+	line-height:15px;
+	color:#2e2e2e;
+	border:1px solid #fff;
+	border-top:none;
+	background:url(../images/sub-nav-marker.gif) no-repeat 8px -35px #f1f1f2;
+	padding:7px 5px 5px 16px;
+	text-decoration:none;
+}
+.sf-menu li li a:hover, .sf-menu li li.sfHover > a, .sf-menu li li.current > a{
+	background:url(../images/sub-nav-marker.gif) no-repeat 8px 14px #494949;
+	color:#e5e5e5;
+}
+.sf-menu li li{
+	float:none;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul{left:225px;top:0px;}
+ */
