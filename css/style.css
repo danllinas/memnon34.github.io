@@ -8,6 +8,12 @@ html,body{height:100%;}
 .main{margin:0 auto;width:980px;position:relative;}
 .main-bg {background:url(../img/bg/bg.jpg) no-repeat center 0; position:relative;}
 .container_12 {position:relative;}
+
+/* navigation for mobile screens hidden on main site */
+.mobile {
+	display: none;
+}
+
 .logo {
    /* background:url(../img/btn_logo.png) no-repeat 0 0;
     left:90px;
@@ -970,18 +976,64 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 
 	.mobile-content {
+    width: 980px;
 		margin-top: 0px;
 		margin-right: 1px;
 		display: block;
 	}
 
 	.mobile-content img{
-		width: 580px;
-		margin-left: 5px;
+		width: 700px;
+    margin-left: 140px;
 		margin-bottom: 10px;
 		margin-top: 15px;
-		display: block;
+		display: inline;
 	}
+
+  img.pins {
+    margin-left: -10px;
+  }
+
+  .mobile-content h1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .mobile-content-text {
+    width: 980px;
+    text-align: center;
+  }
+
+  .mobile-content-text h2 {
+    line-height: 35px;
+  }
+
+  .mobile-content-text a {
+    color: white;
+  }
+  
+  .mobile-content-text p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+
+  .divider {
+    background: url(../img/bg/mobile-divider.jpg);
+    width: 800px;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .divider h1 {
+    padding: 10px;
+    text-shadow: -0.2em 0.0em 0.15em black;
+
+  }
+
 	.mobile-smoker {
 		position: absolute;
 		left: 152px;
