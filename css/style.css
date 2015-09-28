@@ -930,7 +930,7 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile {
 		display: block;
 		margin-left: auto;
-		width: 100%;
+		width: 980px;
 		margin-bottom: 50%;
 	}
 
@@ -1079,11 +1079,20 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 960px;
 	}
 	.mobile {
-		margin-left: -10px;
+		width: 960px;
 	}
 
 	.top-row-mobile img {
-		width: 965px;
+		width: 960px;
+	}
+	.media-mobile {
+		width: 960px;
+	}
+	.mobile-content {
+		width: 960px;
+	}
+	.mobile-content-text {
+		width: 960px;
 	}
 }
 
@@ -1092,11 +1101,20 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 940px;
 	}
 	.mobile {
-		margin-left: -20px;
+		width: 940px;
 	}
 
 	.top-row-mobile img {
-		width: 945px;
+		width: 940px;
+	}
+	.media-mobile {
+		width: 940px;
+	}
+	.mobile-content {
+		width: 940px;
+	}
+	.mobile-content-text {
+		width: 940px;
 	}
 }
 
@@ -1104,6 +1122,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 920px;
 	}
+	.mobile {
+		width: 920px;
+	}
+
 	.mobile-content {
 		margin-left: -16px;
 	}
@@ -1113,7 +1135,16 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 
 	.top-row-mobile img {
-		width: 925px;
+		width: 920px;
+	}
+	.media-mobile {
+		width: 920px;
+	}
+	.mobile-content {
+		width: 920px;
+	}
+	.mobile-content-text {
+		width: 920px;
 	}
 }
 
@@ -1122,24 +1153,34 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 900px;
 	}
 	.mobile {
-		margin-left: -22px;
+		width: 900px;
 	}
 
 	.top-row-mobile img {
-		width: 905px;
+		width: 900px;
+	}
+	.media-mobile {
+		width: 900px;
+	}
+	.mobile-content {
+		width: 900px;
+	}
+	.mobile-content-text {
+		width: 900px;
 	}
 
-	.mobile-content-text {
-		width: 955px;
-	}
 }
 
 @media only screen and (max-width: 880px) {
 	html {
 		width: 880px;
 	}
+	.mobile {
+		width: 880px;
+	}
+
 	.top-row-mobile img {
-		width: 885px;
+		width: 880px;
 	}
 	.mobile-content {
 		margin-left: -27px;
@@ -1147,8 +1188,14 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.divider {
 		margin-left: 60px;
 	}
+	.media-mobile {
+		width: 960px;
+	}
+	.mobile-content {
+		width: 960px;
+	}
 	.mobile-content-text {
-		width: 930px;
+		width: 960px;
 	}
 }
 
@@ -1156,6 +1203,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 860px;
 	}
+	.mobile {
+		width: 860px;
+	}
+
 	img.pins {
 	  margin-left: 100px;
 	}
@@ -1168,8 +1219,14 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.divider {
 		margin-left: 54px;
 	}
+	.media-mobile {
+		width: 860px;
+	}
+	.mobile-content {
+		width: 860px;
+	}
 	.mobile-content-text {
-		width: 900px;
+		width: 860px;
 	}
 }
 
@@ -1177,12 +1234,16 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 840px;
 	}
+	.mobile {
+		width: 840px;
+	}
+
 	img.pins {
     margin-left: 115px;
 	}
 
 	.top-row-mobile{
-		width: 850px;
+		width: 840px;
 	}
 	.mobile-content {
 		margin-left: -48px;
@@ -1191,13 +1252,15 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin-left: 50px;
 		width: 780px;
 	}
-	.mobile-content-text {
-		width: 880px;
-	}
 	.media-mobile {
-		width: 920px;
+		width: 840px;
 	}
-
+	.mobile-content {
+		width: 840px;
+	}
+	.mobile-content-text {
+		width: 840px;
+	}
 	.mobile-content-text img {
 		margin-left: 20px;
 		width: 685px;
@@ -1208,9 +1271,10 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 820px;
 	}
-	.top-row-mobile{
-		width: 830px;
+	.mobile {
+		width: 820px;
 	}
+
 	.mobile-content {
 		margin-left: -62px;
 	}
@@ -1226,11 +1290,14 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		margin-left: 45px;
 		width: 760px;
 	}
-	.mobile-content-text {
-		width: 840px;
-	}
 	.media-mobile {
-		width: 880px;
+		width: 820px;
+	}
+	.mobile-content {
+		width: 820px;
+	}
+	.mobile-content-text {
+		width: 820px;
 	}
 
 }
@@ -1239,15 +1306,17 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 800px;
 	}
+	.mobile {
+		width: 800px;
+	}
+
 	.top-row-mobile img {
-		width: 840px;
+		width: 800px;
 	}
 	img.pins {
     margin-left: 125px;
 	}
-	.mobile-content-text {
-		width: 835px;
-	}
+
 	.mobile-content {
 		margin-left: -70px;
 	}
@@ -1256,7 +1325,13 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
     font-size: 1.8em;
 	}
 	.media-mobile {
-		width: 850px;
+		width: 800px;
+	}
+	.mobile-content {
+		width: 800px;
+	}
+	.mobile-content-text {
+		width: 800px;
 	}
 }
 
@@ -1264,8 +1339,12 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 780px;
 	}
+	.mobile {
+		width: 780px;
+	}
+
 	.top-row-mobile img {
-	    width: 820px;
+	    width: 780px;
 	}
 	.mobile-content {
     margin-left: -80px;
@@ -1279,11 +1358,14 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.divider {
 	    width: 730px;
 	}
-	.mobile-content-text {
-	    width: 815px;
-	}
 	.media-mobile {
-    width: 830px;
+		width: 780px;
+	}
+	.mobile-content {
+		width: 780px;
+	}
+	.mobile-content-text {
+		width: 780px;
 	}
 }
 
@@ -1291,8 +1373,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 760px;
 	}
+	.mobile {
+		width: 760px;
+	}
 	.top-row-mobile img {
-    width: 795px;
+    width: 760px;
 	}
 	img.pins {
     margin-left: 135px;
@@ -1303,14 +1388,20 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile-content {
     margin-left: -90px;
 	}
-	.mobile-content-text {
-    width: 800px;
-	}
 	.divider {
 		width: 710px;
 	}
 	.divider h1 {
     padding: 5px;
+	}
+	.media-mobile {
+		width: 760px;
+	}
+	.mobile-content {
+		width: 760px;
+	}
+	.mobile-content-text {
+		width: 760px;
 	}
 }
 
@@ -1318,8 +1409,11 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 740px;
 	}
+	.mobile {
+		width: 740px;
+	}
 	.top-row-mobile img {
-    width: 775px;
+    width: 740px;
 	}
 	.mobile-content-text h1 {
     margin-left: 190px;
@@ -1332,11 +1426,21 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
     width: 670px;
     margin-left: 150px;
 	}
+	img.mobile-click {
+		width: 200px;
+		margin-left: 390px;
+	}
 	.divider {
     width: 695px;
 	}
+	.media-mobile {
+		width: 740px;
+	}
+	.mobile-content {
+		width: 740px;
+	}
 	.mobile-content-text {
-    width: 790px;
+		width: 740px;
 	}
 }
 
@@ -1344,5 +1448,18 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	html {
 		width: 720px;
 	}
+	.mobile {
+		width: 720px;
+	}
+	.media-mobile {
+		width: 720px;
+	}
+	.mobile-content {
+		width: 720px;
+	}
+	.mobile-content-text {
+		width: 720px;
+	}
+
 
 }
