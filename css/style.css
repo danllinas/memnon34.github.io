@@ -1068,6 +1068,12 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
     text-shadow: -0.2em 0.0em 0.15em black;
 
   }
+	.top-row-mobile {
+		width: 980px;
+	}
+	.top-row-mobile img{
+		width: 980px;
+	}
 }
 
 @media only screen and (max-width: 960px) {
@@ -1077,7 +1083,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile {
 		width: 960px;
 	}
-
+	.top-row-mobile {
+		width: 960px;
+	}
 	.top-row-mobile img {
 		width: 960px;
 	}
@@ -1099,7 +1107,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile {
 		width: 940px;
 	}
-
+	.top-row-mobile {
+		width: 940px;
+	}
 	.top-row-mobile img {
 		width: 940px;
 	}
@@ -1129,7 +1139,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.divider {
 		margin-left: 75px;
 	}
-
+	.top-row-mobile {
+		width: 920px;
+	}
 	.top-row-mobile img {
 		width: 920px;
 	}
@@ -1151,7 +1163,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile {
 		width: 900px;
 	}
-
+	.top-row-mobile {
+		width: 900px;
+	}
 	.top-row-mobile img {
 		width: 900px;
 	}
@@ -1174,7 +1188,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile {
 		width: 880px;
 	}
-
+	.top-row-mobile {
+		width: 880px;
+	}
 	.top-row-mobile img {
 		width: 880px;
 	}
@@ -1200,6 +1216,12 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 860px;
 	}
 	.mobile {
+		width: 860px;
+	}
+	.top-row-mobile {
+		width: 860px;
+	}
+	.top-row-mobile img{
 		width: 860px;
 	}
 
@@ -1241,6 +1263,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.top-row-mobile{
 		width: 840px;
 	}
+	.top-row-mobile img {
+		width: 840px;
+	}
 	.mobile-content {
 		margin-left: -48px;
 	}
@@ -1270,7 +1295,12 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile {
 		width: 820px;
 	}
-
+	.top-row-mobile {
+		width: 820px;
+	}
+	.top-row-mobile img {
+		width: 820px;
+	}
 	.mobile-content {
 		margin-left: -62px;
 	}
@@ -1303,6 +1333,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 800px;
 	}
 	.mobile {
+		width: 800px;
+	}
+	.top-row-mobile {
 		width: 800px;
 	}
 
@@ -1338,7 +1371,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	.mobile {
 		width: 780px;
 	}
-
+	.top-row-mobile {
+		width: 780px;
+	}
 	.top-row-mobile img {
 	    width: 780px;
 	}
@@ -1370,6 +1405,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 760px;
 	}
 	.mobile {
+		width: 760px;
+	}
+	.top-row-mobile {
 		width: 760px;
 	}
 	.top-row-mobile img {
@@ -1406,6 +1444,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 740px;
 	}
 	.mobile {
+		width: 740px;
+	}
+	.top-row-mobile {
 		width: 740px;
 	}
 	.top-row-mobile img {
@@ -1445,6 +1486,12 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		width: 720px;
 	}
 	.mobile {
+		width: 720px;
+	}
+	.top-row-mobile {
+		width: 720px;
+	}
+	.top-row-mobile img{
 		width: 720px;
 	}
 	.media-mobile {
