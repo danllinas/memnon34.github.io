@@ -1075,6 +1075,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 960px) {
+	html {
+		width: 960px;
+	}
 	.mobile {
 		margin-left: -10px;
 	}
@@ -1085,6 +1088,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 940px) {
+	html {
+		width: 940px;
+	}
 	.mobile {
 		margin-left: -20px;
 	}
@@ -1095,6 +1101,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 920px) {
+	html {
+		width: 920px;
+	}
 	.mobile-content {
 		margin-left: -16px;
 	}
@@ -1109,6 +1118,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 900px) {
+	html {
+		width: 900px;
+	}
 	.mobile {
 		margin-left: -22px;
 	}
@@ -1123,6 +1135,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 880px) {
+	html {
+		width: 880px;
+	}
 	.top-row-mobile img {
 		width: 885px;
 	}
@@ -1138,6 +1153,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 860px) {
+	html {
+		width: 860px;
+	}
 	img.pins {
 	  margin-left: 100px;
 	}
@@ -1156,6 +1174,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 840px) {
+	html {
+		width: 840px;
+	}
 	img.pins {
     margin-left: 115px;
 	}
@@ -1184,6 +1205,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 820px) {
+	html {
+		width: 820px;
+	}
 	.top-row-mobile{
 		width: 830px;
 	}
@@ -1212,6 +1236,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 800px) {
+	html {
+		width: 800px;
+	}
 	.top-row-mobile img {
 		width: 840px;
 	}
@@ -1234,6 +1261,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 780px) {
+	html {
+		width: 780px;
+	}
 	.top-row-mobile img {
 	    width: 820px;
 	}
@@ -1258,6 +1288,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 760px) {
+	html {
+		width: 760px;
+	}
 	.top-row-mobile img {
     width: 795px;
 	}
@@ -1282,6 +1315,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 }
 
 @media only screen and (max-width: 740px) {
+	html {
+		width: 740px;
+	}
 	.top-row-mobile img {
     width: 775px;
 	}
@@ -1304,6 +1340,9 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 	}
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 720px) {
+	html {
+		width: 720px;
+	}
 
 }
