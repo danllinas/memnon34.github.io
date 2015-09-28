@@ -1,7 +1,7 @@
 @import"reset.css";@import"superfish.css";@import"grid.css";@import"forms.css";@import"prettyPhoto.css";@import"galleryfic.css";@import"kwicks.css";@import"coin-slider.css";
 
 
-body{font:12px/18px Arial, Helvetica, sans-serif;color:#fff;position:relative;min-width:980px;background-color:#000000}
+body{font:12px/18px Arial, Helvetica, sans-serif;color:#fff;position:relative;background-color:#000000}
 html,body{height:100%;}
 
 /* Global Structure---------------------------------------- */
@@ -918,10 +918,6 @@ a#aToolTipCloseBtn{display:block;height:20px;width:20px;overflow:hidden;backgrou
 		overflow-x: hidden;
 		width: 980px;
 	}
-
-  body {
-    min-width: 0px;
-  }
 
 	.desktop {
 		display: none;
